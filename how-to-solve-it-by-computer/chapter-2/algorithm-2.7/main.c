@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 //--------------------------------------------------
 // Algoritmo 2.7 - Invertendo os dígitos de um
 // número inteiro
@@ -22,7 +21,6 @@ int reverse_number(int number)
         div_result = div(div_result.quot, 10);
         result = result * 10 + div_result.rem;
     }
-
     return result;
 }
 
