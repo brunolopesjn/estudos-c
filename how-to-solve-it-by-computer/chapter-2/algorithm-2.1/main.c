@@ -9,13 +9,19 @@
 // valores atribuídos a elas 
 //--------------------------------------------------
 
-void swap (int *a, int *b){
+
+//--------------------------------------------------
+// Implementação do algoritmo
+//--------------------------------------------------
+void swap (int *a, int *b)
+{
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-int main(int argc, char **argv){
+int main(int argc, char **argv)
+{
 
     int a = 0;
     int b = 0;
@@ -30,7 +36,9 @@ int main(int argc, char **argv){
     printf("Valore da variável b antes da troca: %d\n", b);
     printf("\n");
 
-    // Aplicação do algoritmo
+    //----------------------------------------------
+    // Utilização do algoritmo
+    //----------------------------------------------
     swap(&a, &b);
 
     printf("Valore da variável a após a troca: %d\n", a);
